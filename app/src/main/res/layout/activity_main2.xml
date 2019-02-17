@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:src="@drawable/five"
+        />
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:text="           TIPS
+    TO BUILD A
+    LANGUAGE
+          HABIT"
+        android:textSize="55dp"
+        android:textColor="#666565"
+        android:textStyle="bold"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="179dp"
+                android:text="    + free
+   New Habit
+    Tracker!"
+                android:textSize="30dp"
+                />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="179dp"
+                android:src="@drawable/pantalla"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
